@@ -14,7 +14,7 @@ if(proximoElemento){
     }else{
      console.error(`Elemento com ID "${proximoPasso}" não encontrado.`)   
     }
-  });
+  })
 }); 
 
 //Reinicia o jogo se clicar no botão de reinício 
