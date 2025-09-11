@@ -16,3 +16,12 @@ if(proximoElemento){
     }
   });
 }); 
+
+//Reinicia o jogo se clicar no botão de reinício 
+if (reiniciarBtn){
+  reiniciarBtn.addEventListener('click',() =>{
+   const atual = document.querySelector('.ativo');
+    atuak.classList.remove('ativo');
+    document.getElementById('passo-0').classList.add('ativo');
+  });
+}
